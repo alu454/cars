@@ -15,7 +15,6 @@ do
 				read make
 				echo "Enter the: Model of Car"
 				read model
-				x=":"
 				echo "$year:$make:$model" >> My_old_cars.txt
 				;;
 			"2")
